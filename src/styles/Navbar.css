@@ -1,0 +1,43 @@
+.nav{
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  flex-direction: row;
+  padding: 1rem 4rem;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(126, 120, 120);
+  font-size: 1.3rem;
+}
+.logo{
+  background-color: #ff4500;
+  height: 60px;
+  width: 60px;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+#logoImage{
+  transform: translateX(-54px);
+  transition: all .3s;
+}
+#logoImage:hover{
+  transform: translateX(0);
+}
+.navlinks{
+  text-decoration: none;
+  color: rgb(21, 20, 20);
+}
+.navlinks:hover{
+  color: #ff4500;
+}
+.searchbox> input{
+  border: none;
+  border-bottom: 2px solid black;
+  font-size: 1.2rem;
+}
+.searchbox>input:focus{
+  outline: none;
+}
+.searchbox> svg{
+  height: 1.6rem;
+  width: 1.6rem;
+}
