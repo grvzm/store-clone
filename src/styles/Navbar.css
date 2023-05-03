@@ -3,7 +3,7 @@
   justify-content:space-evenly;
   align-items: center;
   flex-direction: row;
-  padding: 1rem 4rem;
+  padding: 2rem 0;
   background-color: rgb(255, 255, 255);
   border-bottom: 1px solid rgb(126, 120, 120);
   font-size: 1.3rem;
@@ -23,6 +23,7 @@
   transform: translateX(0);
 }
 .navlinks{
+  padding: 0.8rem;
   text-decoration: none;
   color: rgb(21, 20, 20);
 }
@@ -32,12 +33,14 @@
 .searchbox> input{
   border: none;
   border-bottom: 2px solid black;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  color: rgb(93, 90, 90);
 }
 .searchbox>input:focus{
   outline: none;
 }
 .searchbox> svg{
-  height: 1.6rem;
-  width: 1.6rem;
+  height: 1.4rem;
+  width: 1.4rem;
+  cursor: pointer;
 }
