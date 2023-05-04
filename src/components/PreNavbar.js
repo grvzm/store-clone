@@ -17,17 +17,17 @@ const PreNavbar = () => {
     <>
       <div className="pre-nav">
         <div>
-          <a href="#">MI INDIA</a> <span>|</span>
-          <a href="#">GET MI STORE</a>
+          <a href="https://mi.com/in">MI INDIA</a> <span>|</span>
+          <a href="https://mi.com/in">GET MI STORE</a>
           <span>|</span>
-          <a href="#">ONLINE HELP</a>
+          <a href="https://mi.com/in">ONLINE HELP</a>
           <span>|</span>
-          <a href="#">RETAIL STORE ﹀ </a>
+          <a href="https://mi.com/in">RETAIL STORE ﹀ </a>
         </div>
         <div>
-          <a href="#">SIGN IN</a> <span>|</span>
-          <a href="#">SIGN UP</a> <span>|</span>
-          <a href="#">
+          <a href="https://mi.com/in">SIGN IN</a> <span>|</span>
+          <a href="https://mi.com/in">SIGN UP</a> <span>|</span>
+          <a href="https://mi.com/in">
             {cartIcon}
             <span>CART(0)</span>
           </a>
