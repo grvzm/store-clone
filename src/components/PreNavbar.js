@@ -17,17 +17,20 @@ const PreNavbar = () => {
     <>
       <div className="pre-nav">
         <div>
-          <a href="https://mi.com/in">MI INDIA</a> <span>|</span>
-          <a href="https://mi.com/in">GET MI STORE</a>
+          <a href="https://store-clone-mi.netlify.app">MI INDIA</a>{' '}
           <span>|</span>
-          <a href="https://mi.com/in">ONLINE HELP</a>
+          <a href="https://store-clone-mi.netlify.app">GET MI STORE</a>
           <span>|</span>
-          <a href="https://mi.com/in">RETAIL STORE ﹀ </a>
+          <a href="https://store-clone-mi.netlify.app">ONLINE HELP</a>
+          <span>|</span>
+          <a href="https://store-clone-mi.netlify.app">RETAIL STORE ﹀ </a>
         </div>
         <div>
-          <a href="https://mi.com/in">SIGN IN</a> <span>|</span>
-          <a href="https://mi.com/in">SIGN UP</a> <span>|</span>
-          <a href="https://mi.com/in">
+          <a href="https://store-clone-mi.netlify.app">SIGN IN</a>{' '}
+          <span>|</span>
+          <a href="https://store-clone-mi.netlify.app">SIGN UP</a>{' '}
+          <span>|</span>
+          <a href="https://store-clone-mi.netlify.app">
             {cartIcon}
             <span>CART(0)</span>
           </a>

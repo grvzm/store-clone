@@ -1,0 +1,10 @@
+.offer-card{
+  padding: 1rem;
+}
+.offer-card img{
+  transition: all 0.5s;
+}
+
+.offer-card img:hover{
+  box-shadow: 5px 15px 15px rgb(106, 76, 76);
+}

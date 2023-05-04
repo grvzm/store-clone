@@ -4,6 +4,7 @@ import data from './data/data.json';
 import PreNavbar from './components/PreNavbar';
 import Navbar from './components/Navbar.js';
 import Slider from './components/Slider.js';
+import Offers from './components/Offers.js';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <PreNavbar />
       <Navbar />
       <Slider start={data.banner.start} />
+      <Offers offer={data.offer} />
     </Router>
   );
 }
