@@ -1,0 +1,15 @@
+.heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading div{
+  height: 2px;
+  width: 30vw;
+  background-color: rgb(212, 205, 205);
+}
+.heading p{
+  font-size: 2rem;
+  margin: 2rem  1rem;
+  color: rgb(108, 105, 105);
+}

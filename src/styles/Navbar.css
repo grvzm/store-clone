@@ -3,9 +3,9 @@
   justify-content:space-evenly;
   align-items: center;
   flex-direction: row;
-  padding: 2rem 0;
+  padding: 1rem 0;
   background-color: rgb(255, 255, 255);
-  border-bottom: 1px solid rgb(126, 120, 120);
+  border-bottom: 2px solid rgb(227, 227, 227);
   font-size: 1.3rem;
 }
 .logo{
