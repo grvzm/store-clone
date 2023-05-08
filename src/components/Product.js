@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/Product.css';
 
 const Product = ({ url, image, index }) => {
   return (

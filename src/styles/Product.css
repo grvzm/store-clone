@@ -1,0 +1,12 @@
+.products{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 625px;
+}
+div.product{
+  transition: all 0.5s;
+}
+.product:hover{
+  box-shadow: 5px 15px 15px rgb(106, 76, 76);
+}
