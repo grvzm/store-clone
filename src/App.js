@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import data from './data/data.json';
 import PreNavbar from './components/PreNavbar';
 import Navbar from './components/Navbar.js';
@@ -7,6 +7,8 @@ import Slider from './components/Slider.js';
 import Offers from './components/Offers.js';
 import Heading from './components/Heading.js';
 import StarProduct from './components/StarProduct.js';
+import HotAccessoriesMenu from './components/HotAccessoriesMenu.js';
+import HotAccessories from './components/HotAccessories.js';
 
 function App() {
   return (
@@ -18,6 +20,60 @@ function App() {
       <Heading text="STAR PRODUCTS" />
       <StarProduct product={data.starProduct} />
       <Heading text="HOT ACCESSORIES" />
+      <HotAccessoriesMenu />
+      <Routes>
+        <Route
+          exact
+          path="/music"
+          element={
+            <HotAccessories
+              cover={data.hotAccessoriesCover.music}
+              start={data.hotAccessories.music}
+            />
+          }
+        ></Route>
+        <Route
+          exact
+          path="/smartDevices"
+          element={
+            <HotAccessories
+              cover={data.hotAccessoriesCover.smartDevice}
+              start={data.hotAccessories.smartDevice}
+            />
+          }
+        ></Route>
+        <Route
+          exact
+          path="/home"
+          element={
+            <HotAccessories
+              cover={data.hotAccessoriesCover.home}
+              start={data.hotAccessories.home}
+            />
+          }
+        ></Route>
+        <Route
+          exact
+          path="/lifeStyle"
+          element={
+            <HotAccessories
+              cover={data.hotAccessoriesCover.lifeStyle}
+              start={data.hotAccessories.lifeStyle}
+            />
+          }
+        ></Route>
+        <Route
+          exact
+          path="/mobileAccessories"
+          element={
+            <HotAccessories
+              cover={data.hotAccessoriesCover.mobileAccessories}
+              start={data.hotAccessories.mobileAccessories}
+            />
+          }
+        ></Route>
+      </Routes>
+      <Heading text="Product Reviews" />
     </Router>
   );
 }

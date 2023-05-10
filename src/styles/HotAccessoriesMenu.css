@@ -1,0 +1,19 @@
+.HotAccessoriesMenu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.HotAccessoriesLink{
+  margin: 0.5rem 1.5rem;
+  padding: 0.5rem 0;
+  text-decoration: none;
+  color: rgb(56, 54, 54);
+  border-bottom: 1px solid;
+  border-color: transparent;
+
+}
+.HotAccessoriesLink:hover{
+  color: red;
+  border-color:red;
+}

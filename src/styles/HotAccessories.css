@@ -1,0 +1,39 @@
+.HotAccessories{
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+  gap:0.1rem;
+}
+.accessory-container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 920px;
+}
+.accessory{
+  position: relative;
+  z-index: 1;
+  background-color: white;
+  margin: 0.4rem;
+  height: 290px;
+  width: 290px;
+  transition: all 1s;
+}
+.accessory-cover{
+  transition: all 1s;
+}
+.accessory-cover:hover, .accessory:hover{
+  box-shadow: 5px 10px 10px rgb(103, 95, 95);
+}
+.accessory-img{
+  height: 70%;
+  width: 70%;
+}
+.accessory-detail{
+  position: absolute;
+  z-index: 2;
+  bottom: 10px;
+  left: 70px;
+}
+.accessory-detail>span{
+  color: #ff4500;
+}
