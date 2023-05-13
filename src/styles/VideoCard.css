@@ -1,0 +1,63 @@
+/* .video{ */
+  /* margin: 1rem; */
+  /* position: relative; */
+  /* color: white; */
+/* } */
+/* .play> span{ */
+  /* display: block; */
+/* } */
+/* .play>span{ */
+  /* position: absolute; */
+  /* top: 45%; */
+  /* left: 50%; */
+  /* transform: translate(-50%,-50%); */
+/* } */
+/* .play>span>svg{ */
+  /* fill: white; */
+  /* border-radius: 100%; */
+  /* background-color: rgba(234, 230, 230, 0.3); */
+  /* height: 55px; */
+  /* width: 55px; */
+  /* transition: all 1s; */
+/* } */
+/* .play>span>svg:hover{ */
+  /* background-color: rgb(231, 231, 231); */
+/* } */
+/* .play> div{ */
+  /* position: absolute; */
+  /* top: 62%; */
+  /* left: 49%; */
+  /* transform: translate(-50%,-50%); */
+/* } */
+
+.video{
+  width: 30vmax;
+  height: 48vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0.5vmax;
+  cursor: pointer;
+}
+.video > a{
+  padding: 2.5vmax;
+  transition: all 0.4s;
+  border: none;
+  border-radius: 100%;
+  background-color: rgba(255, 255, 255,0.3);
+  color: white;
+}
+.video>a>svg{
+  fill: white;
+}
+.video:hover a{
+  background-color: rgba(255, 255, 255,0.8);
+}
+.video p{
+  color: white;
+  margin: 1vmax;
+}
+
