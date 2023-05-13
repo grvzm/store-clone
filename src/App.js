@@ -12,6 +12,7 @@ import HotAccessories from './components/HotAccessories.js';
 import ProductReviews from './components/ProductReviews.js';
 import Videos from './components/Videos.js';
 import Banner from './components/Banner.js';
+import Footer from './components/Footer.js';
 
 function App() {
   return (
@@ -81,7 +82,8 @@ function App() {
       <Heading text="VIDEOS" />
       <Videos video={data.videos} />
       <Heading text="IN THE PRESS" />
-      <Banner />
+      <Banner banner={data.banner} />
+      <Footer />
     </Router>
   );
 }
